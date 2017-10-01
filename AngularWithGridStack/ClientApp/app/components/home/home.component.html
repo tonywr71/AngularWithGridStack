@@ -1,0 +1,45 @@
+<h1>GridStack</h1>
+
+<div class="container-fluid">
+  <h1>Serialization demo</h1>
+  <div>
+    <a class="btn btn-default" id="save-grid" (click)="saveGrid()">Save Grid</a>
+    <a class="btn btn-default" id="load-grid" (click)="loadGrid()">Load Grid</a>
+    <a class="btn btn-default" id="clear-grid" (click)="clearGrid()">Clear Grid</a>
+  </div>
+  <br />
+  <div class="grid-stack" id="grid-stack">
+    <div class="chart-container" id="tile1">
+      <div class="grid-stack-item-content">
+        <span class="pull-left">Tile 1</span>
+        <div class="pull-left" style="clear:both">Content</div>
+      </div>
+    </div>
+    <div class="chart-container" id="tile2">
+      <div class="grid-stack-item-content">
+        <span class="pull-left">Tile 2</span>
+        <div class="pull-left" style="clear:both">Content</div>
+      </div>
+    </div>
+    <div class="chart-container" id="tile3">
+      <div class="grid-stack-item-content">
+        <span class="pull-left">Tile 3</span>
+        <div class="pull-left" style="clear:both">Content</div>
+      </div>
+    </div>
+    <div class="chart-container" id="tile4">
+      <div class="grid-stack-item-content">
+        <span class="pull-left">Tile 4</span>
+        <div class="pull-left" style="clear:both">Content</div>
+      </div>
+    </div>
+    <div class="chart-container" id="tile5">
+      <div class="grid-stack-item-content">
+        <span class="pull-left">Tile 5</span>
+        <div class="pull-left" style="clear:both">Content</div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <textarea id="saved-data" cols="100" rows="20" readonly="readonly"></textarea>
+</div>
